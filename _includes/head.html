@@ -30,10 +30,10 @@
     
     {% if site.share.twitter %}<!-- Twitter Cards -->
         {% if page.imagefeature %}<meta name="twitter:card" content="summary_large_image">
-            <meta name="twitter:image" content="/img/cover/{{ page.imagefeature }}">
+            <meta name="twitter:image" content="{{ site.url }}/img/cover/{{ page.imagefeature }}">
         {% else %}
             <meta name="twitter:card" content="summary">
-            <meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/img/cover/{{ page.image.thumb }}{% else %}/img/profile.png{% endif %}">{% endif %}
+            <meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/img/cover/{{ page.image.thumb }}{% else %}{{ site.url }}/img/profile.png{% endif %}">{% endif %}
             <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
             <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
             <meta name="twitter:creator" content="@{{ site.share.twitter }}">
