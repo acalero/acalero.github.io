@@ -11,7 +11,7 @@ category:
 - desarrollo
 - software
 imagefeature: 2016-03-07-aprovecha-analisis-estatico.jpg
-description: Se trata de una de las "97 cosas que todo programador debería saber". ¿Lo conoces? Es un libro que recopila la sabiduría de multiples expertos sobre desarrollo de software y que sirve como referencia de todo aquello que deberíamos recordar pero que nunca nos acordamos de hacer cuando estamos creando nuestro código. 
+description: Se trata de una de las '97 cosas que todo programador debería saber'. ¿Lo conoces? Es un libro que recopila la sabiduría de multiples expertos sobre desarrollo de software y que sirve como referencia de todo aquello que deberíamos recordar pero que nunca nos acordamos de hacer cuando estamos creando nuestro código. 
 
 ---
 
