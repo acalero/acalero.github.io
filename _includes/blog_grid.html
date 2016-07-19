@@ -1,0 +1,55 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>ÚLTIMOS ARTÍCULOS DEL BLOG</h2>
+                    <h2>&nbsp;</h2>
+                </div>
+            </div>
+                
+            <div class="row">
+                {% for post in site.posts %}
+                    <div class="col-lg-12 portfolio-item">
+                        
+                            <a href="{{ post.url }}" class="list-group-item" style="border: 0px">
+                              <h5>
+                                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                                        <span class="day">
+                                            {{ post.date | date: "%d" }}
+                                        </span>
+                                        <span class="month-year">
+                                            {% assign m = post.date | date: "%-m" %}
+                                            {% case m %}
+                                              {% when '1' %}ENERO
+                                              {% when '2' %}FEBRERO
+                                              {% when '3' %}MARZO
+                                              {% when '4' %}ABRIL
+                                              {% when '5' %}MAYO
+                                              {% when '6' %}JUNIO
+                                              {% when '7' %}JULIO
+                                              {% when '8' %}AGOSTO
+                                              {% when '9' %}SEPTIEMBRE
+                                              {% when '10' %}OCTUBRE
+                                              {% when '11' %}NOVIEMBRE
+                                              {% when '12' %}DICIEMBRE
+                                            {% endcase %}
+                                            {{ post.date | date: "%Y" }}
+                                        </span>
+                                    </time>
+                                </h5>
+                                <h3 class="list-group-item-heading" style="text-transform: uppercase"> {{ post.title }} </h3>
+                              
+                              <p class="list-group-item-text small">{{ post.description | strip_html }}</p>
+                                {% for tag in post.categories %}
+                                <h5 class="label label-success" style="text-transform: uppercase;">{{ tag }}</h5>&nbsp;
+                                {% endfor %}
+                            </a>
+                </div>
+                        
+                {% endfor %}
+            </div>
+                
+        </div>
+    </section>

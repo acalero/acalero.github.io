@@ -1,0 +1,56 @@
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- image cover? -->
+                    
+                    <div class="intro-text">
+                        
+                        <span class="skills"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d" }}
+                        {% assign m = page.date | date: "%-m" %}
+                                {% case m %}
+                                  {% when '1' %}Enero
+                                  {% when '2' %}Febrero
+                                  {% when '3' %}Marzo
+                                  {% when '4' %}Abril
+                                  {% when '5' %}Mayo
+                                  {% when '6' %}Junio
+                                  {% when '7' %}Julio
+                                  {% when '8' %}Agosto
+                                  {% when '9' %}Septiembre
+                                  {% when '10' %}Octubre
+                                  {% when '11' %}Noviembre
+                                  {% when '12' %}Diciembre
+                                {% endcase %}
+                                {{ page.date | date: " %Y" }}                        
+                        </time>
+                                                        <br>&#8212;<br>
+
+                                   
+                        </span>
+             
+                        <span class="name">{{ page.title }}</span>
+                        
+                        <span class="skills">
+                            por <strong>{{ site.owner }}</strong>
+                            <br>&#8212;<br>
+                            
+                            <ul class="list-inline item-details">
+                                {% for tag in page.categories %}
+                                <li>
+                                    <a href="/search.html?query={{ tag }}"><h5 class="label label-default" style="text-transform: uppercase;">{{ tag }}</h5></a>
+                                </li>
+                                {% endfor %}                                    
+                            </ul> 
+                            {{ page.description }}
+                        </span>
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>

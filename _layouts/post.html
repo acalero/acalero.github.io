@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top">
+    {% include nav_post.html %}
+    {% include header_post.html %}
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="modal-body">
+                        {{ page.content }}
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    
+      
+    {% include share.html %}
+    {% include contact_disqus.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    {% include js_disqus.html %}
+    </body>
+</html>
