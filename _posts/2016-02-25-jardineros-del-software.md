@@ -10,7 +10,7 @@ share: true
 category: 
 - software 
 imagefeature: jardineros-del-software.jpg
-description: Los "jardineros" del software son profesionales que perciben el desarrollo de software de forma diferente. Su objetivo es difundir sus valores, ser mentores para los nuevos desarrolladores y crear software que se desarrolla con el nivel máximo de calidad.
+description: Los jardineros del software son profesionales que perciben el desarrollo de software de forma diferente. Su objetivo es difundir sus valores, ser mentores para los nuevos desarrolladores y crear software que se desarrolla con el nivel máximo de calidad.
 
 ---
 
