@@ -7,7 +7,7 @@ locale: es
 author: Antonio Calero 
 comments: true
 share: true
-imagefeature: 2016-07-27-los-jefes-deberian-programar.png
+imagefeature: 2016-07-27-los-jefes-deberian-programar.png.png
 category: 
 - desarrollo
 description: Si el jefe de cocina sigue cocinando, si el jefe de cirugía sigue operando, ... ¿por qué un buen programador deja de hacerlo cuando pasa a gestionar o a liderar equipos? ¿Acaso somos diferentes?
