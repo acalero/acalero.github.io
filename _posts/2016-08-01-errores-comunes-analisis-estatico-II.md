@@ -77,6 +77,7 @@ Con esto completamos el segundo "pack" de errores comunes que deberías evitar e
 El análisis estático no es simplemente instalar una herramienta y ya está. Requiere dedicación, colaboración, difusión y una serie de tareas adicionales que si no se tienen en cuenta te llevarán al fracaso. Así que ya sabes, como con todo en esta vida, cuando te embarques en esa difícil misión de implantar análisis estático, reflexiona y planifica bien todo lo que vas a hacer, porque de eso dependerá que el análisis estático sume todas sus ventajas a tu proceso de desarrollo.
 
 En resumen:
+
 * No permitas que las versiones liberadas se salten los umbrales de calidad
 * Ten en cuenta la opinión de los desarrolladores a la hora de definir las reglas
 * Intenta utilizar el análisis estático desde el principio, y no solo cuando ya estas a punto de poner en producción el proyecto
