@@ -25,7 +25,7 @@ Aprovechemos para recordar uno a uno los diez principios de la inspección conti
 
 <span class="fa-stack fa-md"><i class="fa fa-circle-o fa-stack-2x"></i><strong class="fa-stack-1x fa-stack-text">4</strong></span> <strong>Los requisitos de calidad de software deben ser objetivos</strong> y no permitir una aprobación/desaprobación de pase subjetivo (decisión errónea).
 
-<span class="fa-stack fa-md"><i class="fa fa-circle-o fa-stack-2x"></i><strong class="fa-stack-1x fa-stack-text">5</strong></span> En la medida de lo posible, <strong>los requisitos de calidad de software deben ser comunes a todos los productos de software</strong>, independientemente de sus características específicas.</blockquote>
+<span class="fa-stack fa-md"><i class="fa fa-circle-o fa-stack-2x"></i><strong class="fa-stack-1x fa-stack-text">5</strong></span> En la medida de lo posible, <strong>los requisitos de calidad de software deben ser comunes a todos los productos de software</strong>, independientemente de sus características específicas.
 
 <span class="fa-stack fa-md"><i class="fa fa-circle-o fa-stack-2x"></i><strong class="fa-stack-1x fa-stack-text">6</strong></span><strong>Los datos de calidad de software deben estar al día</strong>, es decir, medidos en la última versión del código.
 
@@ -33,7 +33,7 @@ Aprovechemos para recordar uno a uno los diez principios de la inspección conti
 
 <span class="fa-stack fa-md"><i class="fa fa-circle-o fa-stack-2x"></i><strong class="fa-stack-1x fa-stack-text">8</strong></span> Ya sea de manera proactiva o reactiva, <strong>los interesados deberán recibir una alerta cuando se introducen nuevos defectos de calidad</strong>, ya sea mediante el envío de correo electrónico, rompiendo la compilación o por otros métodos. La inyección de nuevas evidencias debe ser continua, permitiendo a los equipos la tomar decisiones rápidas sobre la calidad.
 
-<span class="fa-stack fa-md"><i class="fa fa-circle-o fa-stack-2x"></i><strong class="fa-stack-1x fa-stack-text">9</strong></span> <strong>Los datos de calidad de software deben estar disponibles tanto en valores absolutos (en todo el código) y diferencial (nuevo código solamente)</strong> para que el equipo de desarrollo pueda estar en control total del flujo de entrada de evidencias.</blockquote>
+<span class="fa-stack fa-md"><i class="fa fa-circle-o fa-stack-2x"></i><strong class="fa-stack-1x fa-stack-text">9</strong></span> <strong>Los datos de calidad de software deben estar disponibles tanto en valores absolutos (en todo el código) y diferencial (nuevo código solamente)</strong> para que el equipo de desarrollo pueda estar en control total del flujo de entrada de evidencias.
 
 <span class="fa-stack fa-md"><i class="fa fa-circle-o fa-stack-2x"></i><strong class="fa-stack-1x fa-stack-text">10</strong></span> Todas las nuevas evidencias y las evidencias más críticas existentes deben tener asignadas un camino claro con un calendario para su resolución.
 
